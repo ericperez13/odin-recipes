@@ -9,6 +9,10 @@ body {
 }
 
 a {
+    text-decoration: underline;
+}
+
+a:hover {
     text-decoration: none;
 }
 
@@ -20,7 +24,12 @@ a {
 
 .kitchen img {
     display: flex;
-    width: 90em;
+    height: 40em;
+    margin: auto;
+}
+
+.lasagna img {
+    display: flex;
     height: 40em;
     margin: auto;
 }
